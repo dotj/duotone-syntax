@@ -1,4 +1,4 @@
-# DuoTone light
+# intergalactic
 
 Forked from [simurai's duotone-light-syntax](https://github.com/simurai/duotone-light-syntax)
 
