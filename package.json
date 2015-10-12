@@ -1,14 +1,13 @@
 {
-  "name": "duotone-syntax",
+  "name": "intergalactic-syntax",
   "theme": "syntax",
-  "version": "0.2.0",
-  "description": "A double-hue syntax theme",
+  "version": "0.0.1",
+  "description": "A simple, dual-hue theme.",
   "keywords": [
-    "light",
     "duotone",
     "syntax"
   ],
-  "repository": "https://github.com/dotj/duotone-syntax",
+  "repository": "https://github.com/dotj/intergalactic-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
