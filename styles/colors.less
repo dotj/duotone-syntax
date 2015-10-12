@@ -1,21 +1,21 @@
 // Hues ---------------------------------------------------
-@syntax-uno:    330;    // hsl(190, 75%, 50%)
-@syntax-duo:    190;    // hsl(330, 75%, 50%)
+@syntax-uno:    270;    // hsl(190, 75%, 50%)
+@syntax-duo:    190;    // hsl(270, 75%, 50%)
 
 // Base colors --------------------------------------------
-@syntax-accent: hsl(@syntax-uno, 75%, 50%);
+@syntax-accent: @duo-2;
 @syntax-fg:     @uno-2;
 @syntax-bg:     hsl(200, 33%, 100%);
 @syntax-guide:  darken(@syntax-bg, 10%);
 
 // Language colors ----------------------------------------
 // Uno hues -----------------------------------------------
-@uno-1: hsl(@syntax-uno, 70%, 50%);     // hsl(330, 50%, 50%)
-@uno-2: hsl(@syntax-uno, 70%, 40%);     // hsl(330, 50%, 40%)
-@uno-3: hsl(@syntax-uno, 34%, 54%);     // hsl(330, 34%, 54%);
-@uno-4: hsl(@syntax-uno, 16%, 66%);     // hsl(330, 16%, 66%);
+@uno-1: hsl(@syntax-uno, 95%, 15%);
+@uno-2: hsl(@syntax-uno, 50%, 40%);
+@uno-3: hsl(@syntax-uno, 30%, 55%);
+@uno-4: hsl(@syntax-uno, 20%, 66%);
 
 // Duo hues -----------------------------------------------
-@duo-1: hsl(@syntax-duo, 95%, 10%);     // hsl(190, 95%, 10%);
-@duo-2: hsl(@syntax-duo, 46%, 50%);     // hsl(190, 50%, 50%);
-@duo-3: hsl(@syntax-duo,  5%, 70%);     // hsl(190,  5%, 70%);
+@duo-1: hsl(@syntax-duo, 95%, 15%);
+@duo-2: hsl(@syntax-duo, 50%, 50%);
+@duo-3: hsl(@syntax-duo, 20%, 66%);
